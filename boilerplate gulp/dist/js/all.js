@@ -1,0 +1,1 @@
+"use strict";var random=Math.random();function oi(){console.log("oi")}function oi3(){console.log("oi32")}random<=.5?oi():oi3();

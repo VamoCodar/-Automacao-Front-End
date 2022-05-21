@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	$blue: blue;
+
+	@define-mixin exemploDeMixin {
+		font-weight: 600;
+		letter-spacing: -0.01em;
+	}
+
+	.btn {
+		@apply px-2 py-2 bg-blue-200 rounded-sm inline-flex m-32;
+
+		&.verde {
+			@mixin exemploDeMixin;
+			color: $blue;
+		}
+	}
+}

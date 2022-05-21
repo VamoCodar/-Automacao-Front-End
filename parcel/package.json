@@ -1,0 +1,40 @@
+{
+  "name": "parcel",
+  "version": "1.0.0",
+  "description": "",
+
+  "scripts": {
+    "watch-css": "parcel watch src/css/tailwind.base.css --dist-dir dist/css --no-cache --hmr-port 8080",
+    "watch-js": "parcel watch src/js/main.js --dist-dir dist/js --no-content-hash --no-cache --hmr-port 8081",
+    "watch-scss": "parcel watch src/scss/style.scss --dist-dir dist/css --no-content-hash --no-cache --hmr-port 8082",
+    
+    "build-css": "parcel build src/css/tailwind.base.css --dist-dir dist/css --no-cache",
+    "build-js": "parcel build src/js/main.js --dist-dir dist/js --no-content-hash --no-cache",
+    "build-scss": "parcel build src/scss/style.scss --dist-dir dist/css --no-content-hash --no-cache",
+    
+    "dev": "concurrently --kill-others \"npm run watch-css\" \"npm run watch-js\" \"npm run watch-scss\"",
+    "dev-lite": "concurrently --kill-others \"npm run watch-css\" \"npm run watch-js\"",
+    "build": "concurrently  \"npm run build-css\" \"npm run build-js\" \"npm run build-scss\""
+  },
+
+  "browserslist": "> 0.5%, not dead",
+  "author": "",
+  "license": "ISC",
+
+  "devDependencies": {
+    "@parcel/config-default": "^2.5.0",
+    "@parcel/core": "^2.5.0",
+    "@parcel/transformer-sass": "^2.5.0",
+    "autoprefixer": "^10.4.7",
+    "concurrently": "^7.2.0",
+    "parcel": "^2.5.0",
+    "parcel-bundler": "^1.12.5",
+    "postcss": "^8.4.14",
+    "postcss-color-function": "^4.1.0",
+    "postcss-import": "^14.1.0",
+    "postcss-mixins": "^9.0.2",
+    "postcss-nested": "^5.0.6",
+    "postcss-simple-vars": "^6.0.3",
+    "tailwindcss": "^3.0.24"
+  }
+}

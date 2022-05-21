@@ -1,0 +1,68 @@
+body, p, h1, h2, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+ol {
+  padding: 0;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+:after, :before {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+  text-rendering: optimizelegibility;
+}
+
+button {
+  background: initial;
+  border: initial;
+}
+
+button:active {
+  border-style: initial;
+}
+
+button:focus {
+  outline: initial;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input[type="submit"] {
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+}
+
+:focus {
+  outline: 0 rgba(0, 0, 0, 0) !important;
+}
+
+input[type="submit"] {
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+}
+
+body {
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  display: flex;
+}
+
+/*# sourceMappingURL=style.css.map */

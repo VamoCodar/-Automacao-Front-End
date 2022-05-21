@@ -1,0 +1,26 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+charset = utf-8
+
+[*]
+trim_trailing_whitespace = false
+
+
+# python
+[*.py]
+indent_style = tab
+indent_size = 4
+insert_final_newline = false
+
+[*.js]
+indent_style = tab
+indent_size = 2
+insert_final_newline = false
+
+
+[*.{scss,css}]
+indent_style = tab
+indent_size = 2
+insert_final_newline = false
