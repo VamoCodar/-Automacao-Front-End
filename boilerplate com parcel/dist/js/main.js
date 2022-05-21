@@ -526,7 +526,7 @@ function hmrAcceptRun(bundle, id) {
 }
 
 },{}],"5YzAq":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers");
 var _index2 = require("./index2");
 var _index2Default = parcelHelpers.interopDefault(_index2);
 var _index3 = require("./index3");
@@ -536,7 +536,7 @@ if (random <= 0.5) _index2Default.default();
 else _index3Default.default();
 
 },{"./index2":"gf76D","./index3":"4tIFA","@parcel/transformer-js/src/esmodule-helpers.js":"2GLs3"}],"gf76D":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers");
 parcelHelpers.defineInteropFlag(exports);
 function oi() {
     console.log("🍃");
@@ -574,7 +574,7 @@ exports.export = function(dest, destName, get) {
 };
 
 },{}],"4tIFA":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers");
 parcelHelpers.defineInteropFlag(exports);
 function oi3() {
     console.log("😘");
